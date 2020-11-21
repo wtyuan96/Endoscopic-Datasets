@@ -37,9 +37,9 @@
 * **备注：** 数据集用黑色框代替奥林巴斯电磁定位系统ScopeGuide的绿色框，不过仍有几张图像还存在绿色框，需要预处理一下。
 * **示例图像:**
 <p align="center">
-<img src='imgs/kvasir-seg-samples0.png' width=400/> 
-<img src='imgs/kvasir-seg-samples1.png' width=400/> 
-<img src='imgs/kvasir-seg-samples2.png' width=400/> 
+<img src='imgs/kvasir-seg-samples0.png' width=500/> 
+<img src='imgs/kvasir-seg-samples1.png' width=500/> 
+<img src='imgs/kvasir-seg-samples2.png' width=500/> 
 </p>
 
 ## 3. [The Hyper-Kvasir Dataset](https://datasets.simula.no/hyper-kvasir/)
