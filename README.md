@@ -61,3 +61,19 @@
 <img src='imgs/hyper-kvasir-samples2.jpg' width=200/> 
 </p>
 
+
+## 4. [Stereo Correspondence And Reconstruction of Endoscopic Data (SCARED)](https://endovissub2019-scared.grand-challenge.org/)
+* **部位：** 猪的腹部
+* **发布时间：** 2019
+* **关键词：** 结构光、深度图、达芬奇、双目立体匹配
+* **内容：** 双目图像数据集，内含 7 个训练数据集、2 个测试数据集。每个数据集包含 4 到 5 个关键帧，通过结构光采集关键帧对应的深度信息。通过达芬奇机器人动力学信息获取关键帧间的深度信息
+* **对应论文：** Allan M, Mcleod J, Wang C, et al. Stereo correspondence and reconstruction of endoscopic data challenge[J]. arXiv preprint arXiv:2101.01133, 2021.
+* **备注：** 
+    * dataset 4 和 dataset 5 有较大的 calibration error，所以很多论文中不使用 dataset 4 和 dataset 5 进行训练。
+    * 由于关键帧之间的深度信息通过动力学信息插值而来，[STTR](https://arxiv.org/abs/2011.02910) 只用关键帧进行评估。
+* **示例图像:**
+<p align="center">
+<img src='imgs/SCARED_dataset_1_keyframe_1_rectified_left_image_frame_data000000.png' width=200/> 
+<img src='imgs/SCARED_dataset_1_keyframe_1_rectified_right_image_frame_data000000.png' width=200/> 
+<img src='imgs/SCARED_dataset_1_keyframe_1_rectified_disparity000000.png' width=200/> 
+</p>
